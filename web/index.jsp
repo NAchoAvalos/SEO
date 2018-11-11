@@ -7,8 +7,21 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
+    <!-- Identificacion de contenido Duplicado
+    Se ha identifiado librerias repetidas lo que no permite la optimizacion del mismo -->
+    
+    <!-- Eliminacion del contenido duplicado 
+        Se han eliminado las librerias y se han colocado en un archivo general para no tenerlas duplicados ni 
+    sus invocaciones
+    -->
 <%@ include file="include.jsp" %>
-<body>
+  <body>
+      <!-- Identificacion de contenido Duplicado
+    Se ha identificado que el menu principal esta repetido en todos los archivos -->
+    
+    <!-- Eliminacion del contenido duplicado 
+        Se han eliminado el menu principal y se han colocado en un archivo general para tener ununico menu
+    -->
     <%@ include file="menu.jsp" %>  
     <section class="page-section clearfix">
       <div class="container">
