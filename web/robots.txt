@@ -1,2 +1,4 @@
+#Indica a los bots de motor de búsqueda que secciones de la página web revisar y cuáles no.
+
 User-agent: *
 Disallow: 

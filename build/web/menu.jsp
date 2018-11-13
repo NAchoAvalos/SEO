@@ -1,4 +1,10 @@
 
+<!-- La navegación se distribuye entre las páginas de manera uniforme a través del menú de 
+navegación. Esta característica permite a su vez controlar
+el bot de motor de búsqueda ya que le permite navegar de manera 
+sistemática e identificar las páginas más importantes. 
+    -->
+
     <h1 class="site-heading text-center text-white d-none d-lg-block">
       <span class="site-heading-lower">Soluciones Informaticas</span>
     </h1>
@@ -12,6 +18,12 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav mx-auto">
+              
+              <!-- Los URLs utilizados en la página no exceden los 50 caracteres
+              por lo que es más fácil para el usuario recordarlos. Gracias a 
+              esto es más sencilla su distribución en redes sociales y también 
+              su uso en anuncios se facilita.-->
+              
             <li class="nav-item px-lg-4">
               <a class="nav-link text-uppercase text-expanded" href="index.jsp">Inicio
                 <span class="sr-only">(current)</span>
